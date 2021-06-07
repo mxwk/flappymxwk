@@ -1,0 +1,107 @@
+@font-face {
+    font-family: 'SequentialistBB';
+    src: url('https://s3-us-west-2.amazonaws.com/s.cdpn.io/4273/306FA6_1_0.woff2') format('woff2'),
+    url('https://s3-us-west-2.amazonaws.com/s.cdpn.io/4273/306FA6_0_0.woff') format('woff');
+    font-style: normal;
+    font-weight: 400;
+    }
+  
+  @font-face {
+    font-family: 'SequentialistBB';
+    src: url('https://s3-us-west-2.amazonaws.com/s.cdpn.io/4273/306FA6_0_0.woff2') format('woff2'),
+    url('https://s3-us-west-2.amazonaws.com/s.cdpn.io/4273/306FA6_0_0.woff') format('woff');
+    font-style: italic;
+    font-weight: 400;
+    }
+
+
+html {
+    background-color: black;
+}
+
+
+/* Start Feed In Social Media */
+.feed-in{
+    background-color:#FF003D;
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    font-family: arial;
+    z-index: 1;
+    position: relative;
+    vertical-align: center;
+    margin-bottom: 250px;
+    
+  }
+  
+  ul{
+    padding: 0px;
+  }
+  
+  .feed-in ul li{
+    list-style: none;
+    float: left;
+    margin: 15px;
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    line-height: 150px;
+    text-align: center;
+    font-size: 40px;
+    background-color: #FFF;
+    position: relative;
+    transition: all .5s ease-in-out;
+    z-index: 1;
+  }
+  
+  .feed-in ul li:hover{
+    color: #FFF;
+  }
+  
+  .feed-in ul li:before{
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color:#FF003D;
+    border-radius: 50%;
+    transition: all .5s ease-in-out;
+    transform: scale(0);
+    z-index: -1;
+  }
+  
+  .feed-in ul li:hover:before{
+    transform: scale(.9);
+  }
+  /* End Feed In Social Media */
+  
+  #images {
+    background-size: 50px 50px;
+    align-items: center;
+  }
+  
+  a {
+    padding: 50px;
+  }
+  
+  #social-h1 {
+    z-index: 1; 
+    position: relative;
+    font-family: SequentialistBB;
+    font-size: 50px;
+    background-color:#FF003D;
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    z-index: 1;
+    position: relative;
+    vertical-align: center;
+    margin-bottom: 250px;
+    
+  }
+  
+  #social-h1:hover {
+    background-color:darkturquoise;
+  }
