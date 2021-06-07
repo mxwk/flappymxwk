@@ -17,7 +17,7 @@ This game has room for a lot of improvement. I would like to fix:
 4. Make the game playable on phone and tablet.
 5. Have a login and text-chat system in the game.
 
-There are some useless files and unnecessary commented out commands, these are kept for testing purposes.
+There are some unnecessary commented out commands, these are kept for testing purposes.
 
 If you would like to make changes in this repository, then message me at my email which is mxwk77@gmail.com or on my Discord which is MXWK#6513 and I will get back to you ASAP.
 
