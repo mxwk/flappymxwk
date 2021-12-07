@@ -21,8 +21,6 @@ There are some unnecessary commented out commands, these are kept for testing pu
 
 If you would like to make changes in this repository, then message me at my email which is mxwk77@gmail.com or on my Discord which is MXWK#6513 and I will get back to you ASAP.
 
-By the way, the game is live on this link https://flappymxwk.mxwclan.com/
-
 That is all, hope you like the game!
 
 Have a good day!
